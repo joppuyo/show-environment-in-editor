@@ -36,11 +36,6 @@ jobs:
     #    SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
     #    SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
 
-    - name: Zip
-      run: | 
-        rsync -av * ${{env.PLUGIN_SLUG}} --exclude ${{env.PLUGIN_SLUG}} --exclude node_modules --exclude .git --exclude .github --exclude .gitignore --exclude .editorconfig --exclude .prettierrc.js
-        zip -r ${{env.PLUGIN_SLUG}}.zip ${{env.PLUGIN_SLUG}}
-
     - name: Release
       run: |
         mkdir -p ${{env.PLUGIN_SLUG}}
