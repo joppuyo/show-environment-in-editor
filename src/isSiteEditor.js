@@ -1,0 +1,1 @@
+export default () => !!(document.getElementById('site-editor') || document.getElementById('edit-site-editor'))
