@@ -4,7 +4,7 @@
  * Plugin name: Show Environment In Editor
  * Plugin URI: https://github.com/joppuyo/show-environment-in-editor
  * Description: Show current server environment in the Gutenberg editor screen
- * Version: 0.0.4
+ * Version: 0.0.5
  * Requires at least: 5.5
  * Requires PHP: 7.2
  * Author: Johannes Siipola
