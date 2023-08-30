@@ -5,7 +5,7 @@ Tested up to: 6.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://github.com/sponsors/joppuyo
-Stable tag: 0.0.5
+Stable tag: 1.0.0
 
 Show the current server environment in the Gutenberg editor screen.
 
