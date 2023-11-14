@@ -11,7 +11,7 @@
  * Author URI: https://siipo.la
  * License: GPLv2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: seie
+ * Text Domain: show-environment-in-editor
  */
 
 function seie_init_register_block()
@@ -35,30 +35,30 @@ function seie_init_register_block()
     );
 
     $environment_type = 'production';
-    $environment_type_string = __('Production', 'seie');
+    $environment_type_string = __('Production', 'show-environment-in-editor');
 
     if (function_exists('wp_get_environment_type')) {
         $environment_type = wp_get_environment_type();
     }
 
     if ($environment_type === 'staging') {
-        $environment_type_string = __('Staging', 'seie');
+        $environment_type_string = __('Staging', 'show-environment-in-editor');
     }
     if ($environment_type === 'development') {
-        $environment_type_string = __('Development', 'seie');
+        $environment_type_string = __('Development', 'show-environment-in-editor');
     }
     if ($environment_type === 'local') {
-        $environment_type_string = __('Local', 'seie');
+        $environment_type_string = __('Local', 'show-environment-in-editor');
     }
 
-    $environment_description = __("The current environment is <strong>%s</strong>.", "seie");
+    $environment_description = __("The current environment is <strong>%s</strong>.", "show-environment-in-editor");
     $environment_description = sprintf($environment_description, $environment_type_string);
     $environment_description = wp_kses($environment_description, 'post');
 
     wp_localize_script('seie-script', 'seie_vars',
         [
             'environment' => $environment_type,
-            'environment_title' => __('Environment', 'seie'),
+            'environment_title' => __('Environment', 'show-environment-in-editor'),
             'environment_string' => $environment_type_string,
             'environment_description' => $environment_description,
         ]
