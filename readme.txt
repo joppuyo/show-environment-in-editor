@@ -5,7 +5,7 @@ Tested up to: 6.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://github.com/sponsors/joppuyo
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
 Show the current server environment in the Gutenberg editor screen.
 
@@ -57,6 +57,9 @@ Yes, check out the [GitHub repository.](https://github.com/joppuyo/show-environm
 8. Development environment, expanded
 
 ## Changelog
+
+### 1.0.2
+* Prevent direct access
 
 ### 1.0.1
 * Update text domain
