@@ -14,7 +14,7 @@ However, in new WordPress versions, the admin bar is hidden in the post editor a
 ## Requirements
 
 * WordPress 5.5 or later
-* PHP 7.1 or later
+* PHP 7.2 or later
 
 ## Installation
 
