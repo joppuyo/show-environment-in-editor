@@ -39,3 +39,14 @@ You can set the environment type in `wp-config.php`. Here are the values you can
 
     // Development
     define('WP_ENVIRONMENT_TYPE', 'development');
+
+## Support the plugin
+
+Maintaining a WordPress plugin is a lot of work. If you like the plugin, please consider rating it on [WordPress.org](https://wordpress.org/support/plugin/show-environment-in-editor/reviews/#new-post). You can also support me on [GitHub sponsors](https://github.com/sponsors/joppuyo). Thank you!
+
+If you are interested, you can also check out my other WordPress plugins:
+
+* [Disable Media Pages](https://wordpress.org/plugins/disable-media-pages/)
+* [Disable Customizer](https://wordpress.org/plugins/customizer-disabler/)
+* [Disable Drop Cap](https://wordpress.org/plugins/disable-drop-cap/)
+* [ACF Image Aspect Ratio Crop](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/)
