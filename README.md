@@ -9,7 +9,7 @@
 
 WordPress 5.5 [introduced](https://make.wordpress.org/core/2020/07/24/new-wp_get_environment_type-function-in-wordpress-5-5/) the `WP_ENVIRONMENT_TYPE` constant, which allows you to define the current environment where WordPress is running, either **production**, **staging**, **local**, or **development**. You can use the [Display Environment Type](https://wordpress.org/plugins/display-environment-type/) plugin to show this information in the admin bar.
 
-However, in new WordPress versions, the admin bar is hidden in the post editor and site editor. This plugin adds a new icon in the block editor toolbar to display the environment type. You can think of this as a complimentary plugin to Display Environment Type because it's highly recommended that you use both plugins at the same time.
+However, in new WordPress versions, the admin bar is hidden in the post editor and site editor. This plugin adds a new icon in the block editor toolbar to display the environment type. You can think of this as a complimentary plugin to [Display Environment Type](https://wordpress.org/plugins/display-environment-type/) because it's highly recommended that you use both plugins at the same time.
 
 ## Requirements
 
