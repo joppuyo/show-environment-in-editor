@@ -5,7 +5,7 @@ Tested up to: 6.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://github.com/sponsors/joppuyo
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 
 Show the current server environment in the Gutenberg editor screen.
 
@@ -13,7 +13,18 @@ Show the current server environment in the Gutenberg editor screen.
 
 WordPress 5.5 [introduced](https://make.wordpress.org/core/2020/07/24/new-wp_get_environment_type-function-in-wordpress-5-5/) the `WP_ENVIRONMENT_TYPE` constant, which allows you to define the current environment where WordPress is running, either **production**, **staging**, **local**, or **development**. You can use the [Display Environment Type](https://wordpress.org/plugins/display-environment-type/) plugin to show this information in the admin bar.
 
-However, in new WordPress versions, the admin bar is hidden in the post editor and site editor. This plugin adds a new icon in the block editor toolbar to display the environment type. You can think of this as a complimentary plugin to Display Environment Type because you should use both plugins at the same time.
+However, in new WordPress versions, the admin bar is hidden in the post editor and site editor. This plugin adds a new icon in the block editor toolbar to display the environment type. You can think of this as a complimentary plugin to [Display Environment Type](https://wordpress.org/plugins/display-environment-type/) because it's highly recommended that you use both plugins at the same time.
+
+### Support the plugin
+
+Maintaining a WordPress plugin is a lot of work. If you like the plugin, please consider rating it on [WordPress.org](https://wordpress.org/support/plugin/show-environment-in-editor/reviews/#new-post). You can also support me on [GitHub sponsors](https://github.com/sponsors/joppuyo). Thank you!
+
+If you are interested, you can also check out my other WordPress plugins:
+
+* [Disable Media Pages](https://wordpress.org/plugins/disable-media-pages/)
+* [Disable Customizer](https://wordpress.org/plugins/customizer-disabler/)
+* [Disable Drop Cap](https://wordpress.org/plugins/disable-drop-cap/)
+* [ACF Image Aspect Ratio Crop](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/)
 
 ## Installation
 
@@ -48,15 +59,14 @@ Yes, check out the [GitHub repository.](https://github.com/joppuyo/show-environm
 ## Screenshots
 
 1. Production environment
-2. Production environment, expanded
-3. Staging environment
-4. Staging environment, expanded
-5. Local environment
-6. Local environment, expanded
-7. Development environment
-8. Development environment, expanded
+2. Staging environment
+3. Local environment
+4. Development environment
 
 ## Changelog
+
+### 1.0.7
+* Update readme
 
 ### 1.0.6
 * Remove some more unnecessary files from the release zip
