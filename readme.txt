@@ -1,11 +1,11 @@
 # Show Environment In Editor
 
 Contributors: joppuyo
-Tested up to: 6.5
+Tested up to: 6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://github.com/sponsors/joppuyo
-Stable tag: 1.0.8
+Stable tag: 1.0.9
 
 Show the current server environment in the Gutenberg editor screen.
 
@@ -64,6 +64,9 @@ Yes, check out the [GitHub repository.](https://github.com/joppuyo/show-environm
 4. Development environment
 
 ## Changelog
+
+### 1.0.9 (2024-07-17)
+* Fix: Update tested up to version 6.6
 
 ### 1.0.8 (2024-04-04)
 * Fix: Update tested up to version 6.5
